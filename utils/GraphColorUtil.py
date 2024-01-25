@@ -117,7 +117,7 @@ def get_color_rgb(color_str):
         result['R'] = int(color_str[0:2], 16)
         result['G'] = int(color_str[2:4], 16)
         result['B'] = int(color_str[4:6], 16)
-        return True, result
+        return result
     else:
         return {}
         # 如果以上两种情况都不满足，返回错误信息
